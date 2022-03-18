@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.card-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.just-card{
+    
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 0 2px 2px silver;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    /* display: none; */
+
+}
+.just-card {
+    -webkit-animation-name: just-card;
+    -webkit-animation-duration: 1.5s;
+    animation-name: just-card;
+    animation-duration: 1.5s;
+    
+  }
+  
+  @-webkit-keyframes just-card {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes just-card {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+.just-card img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.just-card p{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: silver;
+}
+.just-card h3{
+    background-color: silver;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: -30px;
+
+}
+.icon{
+    margin-top: 20px;
+    color: silver;
+    display: flex;
+    height: fit-content;
+}
+.icon1{
+    
+    background-color: red;
+    border-radius: 50%;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
